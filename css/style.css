@@ -1,0 +1,40 @@
+body {
+  background-color: rgba(108, 165, 165, 0.239);
+  font-size: 20px;
+  margin: 10px;
+  line-height: 1.5em;
+}
+h1,
+h2 {
+  background-color: darkslategray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+p {
+  font-family: "Times New Roman", Times, serif;
+}
+div > img {
+  display: block;
+  width: 50%;
+  margin-left: 50%;
+}
+
+ul > li::before {
+  list-style: none;
+  content: "•";
+  color: rgb(17, 105, 105);
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(46, 45, 45);
+}
+
+#center {
+  text-align: center;
+}
